@@ -187,3 +187,138 @@
     color: white; 
     font-family: Arial, Helvetica, sans-serif;
 }
+.footer_container{
+    background-color: rgba(21, 2, 2, 0.824);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 55vh;
+    padding-left: 5%;
+    font-size: 15px;
+    display: flex;
+}
+.about_us{
+    padding-top: 3%;
+    position: relative;
+}
+.about_us p{
+    padding-top: 10%;
+    padding-right: 35%;
+    
+}
+.contact_us{
+    padding-top: 2.5%;
+}
+.contact_us p{
+    padding-top: 2.5%;
+}
+.our_project{
+    display: flex;
+    padding-top: 3%;
+    flex-wrap: wrap;
+    padding-right: 10%;
+}
+.our_project ul{
+    padding-left: 5%;
+    padding-top: 20%;
+    margin-bottom: 10rem;
+    line-height: 2rem;
+    list-style: none;
+}
+.quick_link{
+    display: flex;
+    padding-right: 15%;
+    padding-top: 3%;
+    flex-wrap: wrap;
+}
+.quick_link ul{
+    padding-left: 0%;
+    padding-top: 20%;
+    margin-bottom: 10rem;
+    line-height: 2rem;
+    list-style: none;
+}
+.newsletter{ 
+    padding-right: 0.9%;
+    padding-top: 3%;
+    flex-wrap: wrap;
+}
+.newsletter h2{
+    padding-right: 11.2rem;
+}
+.newsletter p{
+    padding-top: 10%;
+    padding-right: 15%;
+}
+.newsletter input{
+    margin-top: 10%;
+    margin-left: 1%;
+    padding-right: 5%;
+    height: 9%;
+    border: none;
+}
+button{
+        border: none;
+        padding: 10px;
+        background: rgb(12, 236, 236);
+}
+.about_us h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 80%;
+    background-color: #00b8e6;
+    height: 3px;
+    box-sizing: border-box;
+    width: 32px;
+}
+.newsletter h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 80%;
+    background-color: #00b8e6;
+    height: 3px;
+    box-sizing: border-box;
+    width: 32px;
+}
+.our_project h2::before{
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: 80%;
+    background-color: #00b8e6;
+    height: 3px;
+    box-sizing: border-box;
+    width: 32px;
+}
+.quick_link h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 80%;
+    background-color: #00b8e6;
+    height: 3px;
+    box-sizing: border-box;
+    width: 32px;
+}
+.footer_container1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.left-col {
+    color: white;
+    position: relative;
+    left: 7.5%;
+}
+.right-col{
+    align-items: end;
+    position: absolute;
+    right: 5%;
+}
+.right-col a{
+    color: white;
+    padding-left: 15px;
+}
