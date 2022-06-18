@@ -269,9 +269,9 @@ button{
     height: 3px;
     box-sizing: border-box;
     width: 32px;
-    margin-top:32px:
+    margin-top: 32px;
 }
-.newsletter h2::before{
+.our_project h2::before{
     content: '';
     position: absolute;
     left: 10;
@@ -279,17 +279,7 @@ button{
     height: 3px;
     box-sizing: border-box;
     width: 32px;
-    margin-top:32px;
-}
-.our_project h2::before{
-    content: '';
-    position: absolute;
-    left: 10%;
-    background-color: #00b8e6;
-    height: 3px;
-    box-sizing: border-box;
-    width: 32px;
-    margin-top:32px;
+    margin-top: 32px;
 }
 .quick_link h2::before{
     content: '';
@@ -299,8 +289,19 @@ button{
     height: 3px;
     box-sizing: border-box;
     width: 32px;
-    margin-top:32px;
+    margin-top: 32px;
 }
+.newsletter h2::before{
+    content: '';
+    position: absolute;
+    left: 10;
+    background-color: #00b8e6;
+    height: 3px;
+    box-sizing: border-box;
+    width: 32px;
+    margin-top: 32px;
+}
+
 .footer_container1{
     display: flex;
     flex-wrap: wrap;
