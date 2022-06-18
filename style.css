@@ -269,6 +269,7 @@ button{
     height: 3px;
     box-sizing: border-box;
     width: 32px;
+    margin-top:32px:
 }
 .newsletter h2::before{
     content: '';
