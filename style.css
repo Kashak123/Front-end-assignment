@@ -280,6 +280,7 @@ button{
     height: 3px;
     box-sizing: border-box;
     width: 32px;
+    margin-top:32px;
 }
 .our_project h2::before{
     content: '';
@@ -290,6 +291,7 @@ button{
     height: 3px;
     box-sizing: border-box;
     width: 32px;
+    margin-top:32px;
 }
 .quick_link h2::before{
     content: '';
@@ -300,6 +302,7 @@ button{
     height: 3px;
     box-sizing: border-box;
     width: 32px;
+    margin-top:32px;
 }
 .footer_container1{
     display: flex;
