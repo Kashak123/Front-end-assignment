@@ -162,3 +162,22 @@
     height: 50vh;
     padding: 1%;
 }
+.Events{
+    background-image: url(images/background\ img.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10%;
+}
+.Events h2{
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%; 
+    color: white;
+}
+.Events a{
+    color: white;
+    padding-left: 7%;
+    font-size: x-large;
+    
+}
