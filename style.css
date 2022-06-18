@@ -265,7 +265,6 @@ button{
     content: '';
     position: absolute;
     left: 10;
-    bottom: 80%;
     background-color: #00b8e6;
     height: 3px;
     box-sizing: border-box;
@@ -275,7 +274,6 @@ button{
     content: '';
     position: absolute;
     left: 10;
-    bottom: 80%;
     background-color: #00b8e6;
     height: 3px;
     box-sizing: border-box;
@@ -286,7 +284,6 @@ button{
     content: '';
     position: absolute;
     left: 10%;
-    bottom: 80%;
     background-color: #00b8e6;
     height: 3px;
     box-sizing: border-box;
@@ -297,7 +294,6 @@ button{
     content: '';
     position: absolute;
     left: 10;
-    bottom: 80%;
     background-color: #00b8e6;
     height: 3px;
     box-sizing: border-box;
