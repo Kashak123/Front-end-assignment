@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    margin-top: 0%;
+}
+.header_top{
+    background-color: rgb(8, 141, 121);
+    height: 3rem; 
+}
+.header_top p{
+    margin-left: 9%;
+    color: white;
+}
+.contact-1{
+    margin-left: 15%;
+}
+.contact-1 a{
+    color: white;
+    margin-left: 1%;
+}
+
+.contact-1 a i{
+    color: white;
+    margin-left: 1%;
+    margin-top: 0%;
+}
+.contact-2{
+    float: right;
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 3px;
+}
+.header_top .contact-2 p{
+    color: white;    
+}
+.contact-2 a i{
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown span{
+    margin: 0px 2px;
+    padding: 0px 2px;
+}
+.contact-2 span{
+    color: white;
+}
+.logo{
+   float: left;
+}
+
+.logo img{
+    margin-left: 8rem;
+    width: 65%;
+}
+.header_side{
+    display: flex;
+    padding: 2%;
+    margin-left: 30%;
+    margin-right: 20%;
+    align-items: center;
+    font-size: larger;
+    justify-content: space-between;
+    
+}
+.header_side a{
+    text-decoration: none;
+    color: rgb(64, 62, 62);
+    padding: 16px;
+}
+.button{
+    background-color:  rgb(127, 233, 217);
+    width: 15%;
+    padding: 0.8%;
+    margin-left: 30%;
+}
+.main{
+    margin-top: 20px;
+    background-image: url(images/img.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 535px;
+    position: relative;
+}
+.main .main_content a i{
+    font-size: xx-large;
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+    padding: 1%;
+    margin-top: 3%;
+}
+.main_content h1{
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-right: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.main_content p{
+    text-align: center;
+    margin-left: 17%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: large;
+    padding-right: 28%;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid;
+    border-radius: 5px;   
+    padding: 01%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-top: 2%;
+    float: left;
+}
