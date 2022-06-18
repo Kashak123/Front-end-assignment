@@ -264,7 +264,7 @@ button{
 .about_us h2::before{
     content: '';
     position: absolute;
-    left: 0;
+    left: 10;
     bottom: 80%;
     background-color: #00b8e6;
     height: 3px;
@@ -274,7 +274,7 @@ button{
 .newsletter h2::before{
     content: '';
     position: absolute;
-    left: 0;
+    left: 10;
     bottom: 80%;
     background-color: #00b8e6;
     height: 3px;
@@ -285,7 +285,7 @@ button{
 .our_project h2::before{
     content: '';
     position: absolute;
-    left: 0%;
+    left: 10%;
     bottom: 80%;
     background-color: #00b8e6;
     height: 3px;
@@ -296,7 +296,7 @@ button{
 .quick_link h2::before{
     content: '';
     position: absolute;
-    left: 0;
+    left: 10;
     bottom: 80%;
     background-color: #00b8e6;
     height: 3px;
