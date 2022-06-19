@@ -86,6 +86,20 @@
     height: 535px;
     position: relative;
 }
+.main-slider-left{
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    top: 56%;
+    left: 13%;
+}
+.main-slider-right{
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    bottom: 37%;
+    left: 90%;
+}
 .main .main_content a i{
     font-size: xx-large;
     color: black;
