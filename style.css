@@ -6,12 +6,17 @@
     background-color: rgb(8, 141, 121);
     height: 3rem; 
 }
+#header_left{
+    position: relative;
+    top: 17px;
+}
 .header_top p{
     margin-left: 9%;
     color: white;
+    font-size: 17px;
 }
 .contact-1{
-    margin-left: 15%;
+    margin-left: 13%;
 }
 .contact-1 a{
     color: white;
@@ -23,18 +28,30 @@
     margin-left: 1%;
     margin-top: 0%;
 }
-.contact-2{
-    float: right;
-    display: flex;
-    position: absolute;
-    right: 10%;
-    top: 3px;
-}
 .header_top .contact-2 p{
-    color: white;    
+    color: white;  
+    position: relative; 
+    right: -21%; 
 }
 .contact-2 a i{
     color: white;
+}
+#header_right{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 48%;
+    right: 7%;
+    float: right;
+    bottom: 45%;
+}
+#email_icon{
+    position: relative;
+    right: -32%;
+}
+#icon{
+    position: relative;
+    left: 16%;
 }
 .dropdown {
     position: relative;
@@ -45,6 +62,10 @@
     margin: 0px 2px;
     padding: 0px 2px;
 }
+#phone{
+    position: relative;
+    left: 5%;
+}
 .contact-2 span{
     color: white;
 }
@@ -53,8 +74,9 @@
 }
 
 .logo img{
-    margin-left: 8rem;
-    width: 65%;
+    margin-left: 38%;
+    width: 90%;
+    margin-top: 2%;
 }
 .header_side{
     display: flex;
@@ -69,13 +91,16 @@
 .header_side a{
     text-decoration: none;
     color: rgb(64, 62, 62);
-    padding: 16px;
+    padding: 20px;
 }
 .button{
     background-color:  rgb(127, 233, 217);
-    width: 15%;
+    width: 45%;
     padding: 0.8%;
-    margin-left: 30%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-left: 55%;
+    position: relative;
 }
 .main{
     margin-top: 20px;
@@ -142,7 +167,6 @@
 .gallery{
     text-align: center;
     font-size: larger;
-    margin-top: px;
     padding: 4%;
 }
 .gallery h1{
@@ -223,10 +247,10 @@
     
 }
 .contact_us{
-    padding-top: 2.5%;
+    padding-top: 5%;
 }
 .contact_us p{
-    padding-top: 2.5%;
+    padding-top: 3%;
 }
 .our_project{
     display: flex;
@@ -243,7 +267,7 @@
 }
 .quick_link{
     display: flex;
-    padding-right: 15%;
+    padding-right: 14%;
     padding-top: 3%;
     flex-wrap: wrap;
 }
@@ -329,7 +353,7 @@ button{
 .left-col {
     color: white;
     position: relative;
-    left: 7.5%;
+    left: 6%;
 }
 .right-col{
     align-items: end;
